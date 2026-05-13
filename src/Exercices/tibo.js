@@ -15,7 +15,6 @@ if (moyenne => 5) {
     result = "Good Boy";
     }
 return result;
-}
 
 console.log(testNum(moyenne));
 
