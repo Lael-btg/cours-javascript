@@ -18,3 +18,11 @@ function additioner2(nombre1=0, nombre2=0) {
     console.log(33+2)
 }
 additioner2(17,22)
+// tuto Stagiaire
+//TODO : Pourquoi ca beug ?
+function buggyFunction() {
+    let wtf = 9;
+    console.log(wtf);
+}; 
+buggyFunction();
+console.log(wtf);
