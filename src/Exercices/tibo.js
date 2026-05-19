@@ -9,12 +9,13 @@ console.log('la moyenne de tibo est de:', moyenne)
 
 function testNum(moyenne) {
     let result;
-if (moyenne => 5) {
-    result = "Bad Boy";
+    if (moyenne >= 5) {
+        result = "Bad Boy";
     } else {
-    result = "Good Boy";
+        result = "Good Boy";
     }
-return result;
+    return result;
+}
 
 console.log(testNum(moyenne));
 
