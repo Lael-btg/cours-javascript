@@ -21,6 +21,7 @@ const remove = document.querySelector('.btn.btn-secondary');
 
     remove.addEventListener('click', () => {
         console.log('ok le boutton 2 est clickable');
+        unTitle.classList.remove('maclasse')
     });
 
 const toggle = document.querySelector('.btn.btn-accent.btn-outline');
